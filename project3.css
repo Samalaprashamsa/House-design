@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	height: 750px;
+	width: 100%;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5),
+	 rgba(0, 0, 0, 0.5)), url(house-background-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+	height: 500px;
+	width: 1200px;
+	margin: auto;
+}
+
+.icon h1{
+	color: white;
+	padding-top: 10px;
+}
+
+.icon h1{
+	padding-top: 40px;
+}
+ul{
+	float: left;
+	display: flex;
+	padding-left: 700px;
+	padding-top: 0px;
+}
+
+ul li{
+	padding-left: 40px;
+	color: white;
+	display: flex;
+}
+
+ul li a{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ul li a:hover{
+	color: gold;
+}
+
+.content h1{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-style: Helvetica;
+	padding-top: 170px;
+	text-align: center;
+}
+
+.content p{
+	color: white;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 20px;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+
+button:hover{
+	background-color: cadetblue;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+button{
+	text-align: center;
+	margin: 20px 10px;
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+	height: 40px;
+	width: 170px;
+	border: none;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-left: 400px;
+	margin-top: 50px;
+}
+
+.btn{
+	margin-left: 200px;
+	margin-top: -110px;
+}
+
